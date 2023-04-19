@@ -12,3 +12,4 @@ artifacts:
   # notably excluded is node_modules, as this will cause overwrite error on deploy
   files:
     - target/SQLite.demo-0.0.1-SNAPSHOT.jar
+  discard-paths: yes
